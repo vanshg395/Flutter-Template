@@ -1,0 +1,6 @@
+enum CTAType {
+  EXTERNAL_LINK,
+  APP_LINK,
+  DISABLED,
+  APP_CUSTOM,
+}

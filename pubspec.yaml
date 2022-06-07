@@ -1,0 +1,36 @@
+name: flutter_template
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+  package_info_plus: ^1.4.2
+  device_info_plus: ^3.2.4
+  memory_info: ^0.0.2
+  rxdart: ^0.27.4
+  connectivity_plus: ^2.3.2
+  http: ^0.13.4
+  intl: ^0.17.0
+  path_provider: ^2.0.11
+  url_launcher: ^6.1.2
+  uuid: ^3.0.6
+  page_transition: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true

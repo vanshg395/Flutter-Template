@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Android Dev",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor","dev",
+                "--dart-define=CUSTOM_ENV=development",
+            ],
+        },
+        {
+            "name": "Android Dev Profile",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor","dev",
+                "--dart-define=CUSTOM_ENV=development",
+                "--profile"
+            ],
+        },
+        {
+            "name": "Android Dev Release",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor","dev",
+                "--dart-define=CUSTOM_ENV=development",
+                "--release"
+            ],
+        },
+        {
+            "name": "Android Stage",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor","stage",
+                "--dart-define=CUSTOM_ENV=stage",
+            ],
+        },
+        {
+            "name": "Android Stage Profile",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor","stage",
+                "--dart-define=CUSTOM_ENV=stage",
+                "--profile"
+            ],
+        },
+        {
+            "name": "Android Stage Release",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor","stage",
+                "--dart-define=CUSTOM_ENV=stage",
+                "--release"
+            ],
+        },
+        {
+            "name": "Android Prod",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor","prod",
+                "--dart-define=CUSTOM_ENV=production",
+            ],
+        },
+        {
+            "name": "Android Prod Profile",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor","prod",
+                "--dart-define=CUSTOM_ENV=production",
+                "--profile",
+            ],
+        },
+        {
+            "name": "Android Prod Release",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor","prod",
+                "--dart-define=CUSTOM_ENV=production",
+                "--release",
+            ],
+        },
+        {
+            "name": "iOS Dev",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=CUSTOM_ENV=development",
+            ],
+        },
+        {
+            "name": "iOS Stage",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=CUSTOM_ENV=stage",
+            ],
+        },
+        {
+            "name": "iOS Prod",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=CUSTOM_ENV=production"
+            ],
+        }
+    ]
+}
