@@ -1,4 +1,4 @@
-import 'package:flutter_template/utils/common_helpers.dart';
+import './common_helpers.dart';
 
 class EnvironmentConfig {
   EnvironmentConfig._();
