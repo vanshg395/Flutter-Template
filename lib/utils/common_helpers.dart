@@ -16,7 +16,7 @@ import '../models/shared/user_agent.model.dart';
 import '../models/shared/cta.model.dart';
 
 import '../utils/enums/cta_type.enum.dart';
-import '../utils/design/colors.dart';
+import '../utils/design/app_colors.dart';
 
 class CommonHelpers {
   CommonHelpers._();
