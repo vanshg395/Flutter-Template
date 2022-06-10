@@ -15,18 +15,18 @@ class NavigationService {
 
   static Function? pendingRedirect;
 
-  static Future<NavigationResponse<dynamic>?> pushNamed(
+  static Future<T?> pushNamed<T>(
     String routeName, {
     dynamic arguments,
   }) {
-    return navigatorKey.currentState!.pushNamed<NavigationResponse<dynamic>?>(
-        routeName,
-        arguments: arguments);
+    return navigatorKey.currentState!.pushNamed<T>(
+      routeName,
+      arguments: arguments,
+    );
   }
 
-  static Future<NavigationResponse<dynamic>?> push(
-      Route<NavigationResponse<dynamic>?> route) {
-    return navigatorKey.currentState!.push<NavigationResponse<dynamic>?>(route);
+  static Future<T?> push<T>(Route<T> route) {
+    return navigatorKey.currentState!.push<T>(route);
   }
 
   static Future<dynamic> pushReplacement(Route route) {
